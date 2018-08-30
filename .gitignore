@@ -1,0 +1,42 @@
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.swp
+
+pids
+logs
+results
+tmp
+
+# Build
+app/public/css/main.css
+
+# Coverage reports
+coverage
+
+# Environment variables
+.env
+
+# Dependency directory
+app/node_modules
+app/bower_components
+
+# Database
+data/
+
+# Editors
+.idea
+.vscode
+*.iml
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Ignore built ts files
+app/dist/**/*
